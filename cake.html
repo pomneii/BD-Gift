@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Gift</title>
+
+    <link rel="stylesheet" href="cake.css">
+</head>
+<body>
+    <div class="cake">
+        <div class="plate"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="icing"></div>
+        <div class="drip drip1"></div>
+        <div class="drip drip2"></div>
+        <div class="drip drip3"></div>
+        <div class="candle">
+            <div class="flame"></div>
+        </div>
+    </div>
+
+    <div class="container" id="wish-container">
+        Close your eyes and make a wish! 🎂 <br>
+        I wish you happiness every day. <br>
+        I will always be by your side.
+    </div>
+
+    <button class="wish" id="wish" onclick="makeWishes()">
+        Make a wish! 🎂
+    </button>
+
+    <button class="blow-out" id="blow-out" onclick="blowOutCandle()">
+        Blow out the candles.
+    </button>
+
+    <script src="cake.js"></script>
+</body>
+</html>
